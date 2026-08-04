@@ -5,15 +5,15 @@ An interactive Processing installation that uses real-time face detection and mi
 - Processing
 - Processing Sound Library
 - Processing Video Library
-- OpenCV for Processing (Gabriel's library)
+- OpenCV for Processing
 
 ## How It Works
-1. The webcam captures live video.
-2. OpenCV detects the largest visible face.
-3. The center of the detected face becomes the particle system's origin.
-4. The microphone measures sound amplitude.
-5. Louder sounds increase the particles' orbital radius.
-6. Particles smoothly animate around the face, creating a responsive visual effect.
+1. The webcam captures live video
+2. OpenCV detects the largest visible face
+3. The center of the detected face becomes the particle system's origin
+4. The microphone measures sound amplitude
+5. Louder sounds increase the particles' orbital radius
+6. Particles smoothly animate around the face, creating a responsive visual effect
 
 ## Libraries Required
 Install these Processing libraries before running:
@@ -29,10 +29,10 @@ Search for:
 - OpenCV for Processing
 
 ## Controls
-- Allow webcam access.
-- Allow microphone access.
-- Move your face to reposition the particle system.
-- Speak or make sounds to expand the particle orbit.
+- Allow webcam access
+- Allow microphone access
+- Move your face to reposition the particle system
+- Speak or make sounds to expand the particle orbit
   
 ## Author
 Angela Wang
